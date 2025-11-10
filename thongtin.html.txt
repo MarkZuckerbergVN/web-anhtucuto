@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông Tin - Tô Hoàng Anh Tú</title>
+    <style>
+        /* CSS cho trang này tương tự trangchu.html, bạn có thể tách ra file style.css nếu muốn */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 10px 10px 0 0;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        .nav {
+            margin-top: 20px;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
+        }
+        .nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        .nav ul li {
+            margin-right: 25px;
+        }
+        .nav ul li a {
+            text-decoration: none;
+            color: #1E88E5;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        .nav ul li a:hover,
+        .nav ul li a.active {
+            color: #FF9800;
+            border-bottom: 3px solid #FF9800;
+            padding-bottom: 5px;
+        }
+
+        .content {
+            padding: 30px 0;
+        }
+        .content h2 {
+            color: #1E88E5; /* Màu tiêu đề Thông tin */
+            border-bottom: 2px solid #EEE;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        
+        .section-box {
+            background-color: #e3f2fd; /* Màu xanh da trời nhạt */
+            padding: 20px;
+            margin-bottom: 20px;
+            border-left: 5px solid #1E88E5;
+            border-radius: 5px;
+        }
+        .section-box h3 {
+            color: #0D47A1;
+            margin-top: 0;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            border-top: 1px solid #ddd;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>Tô Hoàng Anh Tú - Sáng Tạo Số</h1>
+        </div>
+
+        <div class="nav">
+            <ul>
+                <li><a href="trangchu.html">Trang Chủ</a></li>
+                <li><a href="thongtin.html" class="active">Thông Tin Cá Nhân</a></li>
+                <li><a href="dichvu.html">Dịch Vụ & Dự Án</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h2>Về Tô Hoàng Anh Tú 👋</h2>
+            
+            <div class="section-box">
+                <h3>Về chúng tôi</h3>
+                <p>Tôi là một nhà thiết kế trẻ, đầy **đam mê và nhiệt huyết** với lĩnh vực **thiết kế phần mềm (Software Design)** và **website (Web Design)**. Tôi luôn tìm tòi, học hỏi các xu hướng mới nhất để tạo ra những sản phẩm **đột phá** và **thân thiện với người dùng**.</p>
+                <p>Mục tiêu của tôi là biến những ý tưởng phức tạp thành **giao diện trực quan** và **trải nghiệm dễ dàng**, đóng góp giá trị thực cho cộng đồng và khách hàng.</p>
+            </div>
+
+            <div class="section-box">
+                <h3>Kinh nghiệm và Kỹ năng</h3>
+                <ul>
+                    <li>**Thiết kế Giao diện Người dùng (UI Design):** Thành thạo Figma, Sketch, Adobe XD.</li>
+                    <li>**Thiết kế Trải nghiệm Người dùng (UX Design):** Phân tích người dùng, xây dựng Wireframe & Prototype.</li>
+                    <li>**Lập trình Front-end cơ bản:** HTML5, CSS3, JavaScript.</li>
+                    <li>**Tư duy Sáng tạo & Giải quyết vấn đề:** Luôn tìm kiếm giải pháp tối ưu cho mọi thách thức thiết kế.</li>
+                </ul>
+            </div>
+
+            <div class="section-box">
+                <h3>Tầm nhìn và Cam kết</h3>
+                <p>Tôi cam kết mang đến những dịch vụ **uy tín, chuyên nghiệp**, và đặc biệt là **phù hợp** với ngân sách và mục tiêu của từng dự án. Sản phẩm không chỉ đẹp mà còn phải **hiệu quả**.</p>
+                <p>Hãy cùng nhau kiến tạo nên những sản phẩm số tuyệt vời! ✨</p>
+            </div>
+
+            <h3>Liên hệ:</h3>
+            <p>Tìm hiểu cách liên hệ với tôi ở phần cuối trang `dichvu.html`.</p>
+        </div>
+
+        <div class="footer">
+            <p>© 2025 Tô Hoàng Anh Tú | Chuyên gia Thiết kế Phần mềm & Website. Đam mê Sáng tạo!</p>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tô Hoàng Anh Tú - Thiết Kế Sáng Tạo</title>
+    <style>
+        /* Thiết lập cơ bản */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff; /* Màu nền nhẹ nhàng, tươi sáng */
+            color: #333;
+        }
+
+        /* Vùng chứa chính */
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        /* Thanh điều hướng */
+        .header {
+            background-color: #4CAF50; /* Màu xanh lá cây tươi mới */
+            color: white;
+            padding: 15px 30px;
+            border-radius: 10px 10px 0 0;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        .nav {
+            margin-top: 20px;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
+        }
+        .nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        .nav ul li {
+            margin-right: 25px;
+        }
+        .nav ul li a {
+            text-decoration: none;
+            color: #1E88E5; /* Màu xanh dương năng động */
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        .nav ul li a:hover,
+        .nav ul li a.active {
+            color: #FF9800; /* Màu cam nổi bật khi hover/active */
+            border-bottom: 3px solid #FF9800;
+            padding-bottom: 5px;
+        }
+
+        /* Nội dung chính */
+        .content {
+            padding: 30px 0;
+        }
+        .content h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #EEE;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+
+        /* Phần Đăng ký */
+        .subscribe-form {
+            background-color: #e8f5e9; /* Màu nền nhẹ cho form */
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+        }
+        .subscribe-form input[type="email"] {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 10px;
+            width: 250px;
+            font-size: 16px;
+        }
+        .subscribe-form button {
+            background-color: #FF5722; /* Màu cam đất mạnh mẽ */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .subscribe-form button:hover {
+            background-color: #E64A19;
+        }
+
+        /* Phần footer */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            border-top: 1px solid #ddd;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>Tô Hoàng Anh Tú - Sáng Tạo Số</h1>
+        </div>
+
+        <div class="nav">
+            <ul>
+                <li><a href="trangchu.html" class="active">Trang Chủ</a></li>
+                <li><a href="thongtin.html">Thông Tin Cá Nhân</a></li>
+                <li><a href="dichvu.html">Dịch Vụ & Dự Án</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h2>Chào mừng đến với không gian thiết kế của tôi! 🚀</h2>
+            
+            <p>Xin chào, tôi là **Tô Hoàng Anh Tú**. Tôi có **đam mê cháy bỏng** trong lĩnh vực **thiết kế phần mềm và website**, tạo ra những trải nghiệm số vừa đẹp mắt vừa dễ sử dụng.</p>
+
+            <h3>Đăng ký nhận thông báo mới từ Tú</h3>
+            <div class="subscribe-form">
+                <input type="email" placeholder="Nhập Email của bạn..." required>
+                <button type="submit">Đăng ký ngay</button>
+            </div>
+
+            <p>Tôi tin rằng một **phần mềm** hay một **website** không chỉ cần có chức năng tốt mà còn phải mang lại **giá trị thẩm mỹ và cảm xúc** cho người dùng. Đó là lý do tôi luôn theo đuổi sự hoàn hảo trong từng pixel và dòng code.</p>
+
+            <h3>Ngôn ngữ Thiết Kế Nền Tảng</h3>
+            
+            <h4>Ngôn ngữ HTML5 (Cấu Trúc)</h4>
+            <p><strong>HTML5</strong> là nền tảng cấu trúc của mọi website hiện đại. Tôi sử dụng HTML5 để xây dựng bộ khung vững chắc, đảm bảo tính **sạch sẽ và thân thiện với SEO** cho mọi dự án.</p>
+            
+            <h4>Ngôn ngữ CSS3 (Trình Bày)</h4>
+            <p><strong>CSS3</strong> là "phép thuật" biến cấu trúc HTML thành giao diện sống động, thu hút. Tôi sử dụng CSS3 và các framework hiện đại để tạo ra các thiết kế **responsive, mượt mà** và đầy phong cách.</p>
+
+            <h4>Nguyên lý UX/UI (Trải Nghiệm & Giao Diện)</h4>
+            <p>Thiết kế của tôi luôn đặt người dùng làm trung tâm (**User-Centric Design**). Tôi tập trung vào **UX (Trải nghiệm người dùng)** và **UI (Giao diện người dùng)** để mọi sản phẩm đều **trực quan, hiệu quả** và **đáng nhớ**.</p>
+        </div>
+
+        <div class="footer">
+            <p>© 2025 Tô Hoàng Anh Tú | Chuyên gia Thiết kế Phần mềm & Website. Đam mê Sáng tạo!</p>
+        </div>
+    </div>
+
+</body>
+</html>

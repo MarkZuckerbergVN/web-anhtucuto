@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dịch Vụ - Tô Hoàng Anh Tú</title>
+    <style>
+        /* CSS cho trang này tương tự trangchu.html */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 10px 10px 0 0;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        .nav {
+            margin-top: 20px;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
+        }
+        .nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        .nav ul li {
+            margin-right: 25px;
+        }
+        .nav ul li a {
+            text-decoration: none;
+            color: #1E88E5;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        .nav ul li a:hover,
+        .nav ul li a.active {
+            color: #FF9800;
+            border-bottom: 3px solid #FF9800;
+            padding-bottom: 5px;
+        }
+
+        .content {
+            padding: 30px 0;
+        }
+        .content h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #EEE;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+
+        /* Thẻ dịch vụ */
+        .service-card {
+            background-color: #e8f5e9; /* Màu nền nhẹ cho dịch vụ */
+            border: 1px solid #c8e6c9;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+        .service-card h3 {
+            color: #4CAF50;
+            margin-top: 0;
+            border-bottom: 1px dashed #c8e6c9;
+            padding-bottom: 5px;
+        }
+        .service-card .price {
+            font-weight: bold;
+            color: #FF5722; /* Màu giá nổi bật */
+            font-size: 1.1em;
+            display: block;
+            margin-top: 10px;
+        }
+
+        /* Form Liên hệ */
+        .contact-form {
+            background-color: #fff3e0; /* Màu nền nhẹ cho form liên hệ */
+            padding: 25px;
+            border-radius: 8px;
+            margin-top: 30px;
+            border-left: 5px solid #FF9800;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #E65100;
+        }
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ffcc80;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .contact-form button {
+            background-color: #FF9800;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .contact-form button:hover {
+            background-color: #F57C00;
+        }
+
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            border-top: 1px solid #ddd;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>Tô Hoàng Anh Tú - Sáng Tạo Số</h1>
+        </div>
+
+        <div class="nav">
+            <ul>
+                <li><a href="trangchu.html">Trang Chủ</a></li>
+                <li><a href="thongtin.html">Thông Tin Cá Nhân</a></li>
+                <li><a href="dichvu.html" class="active">Dịch Vụ & Dự Án</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h2>Các Dịch Vụ Thiết Kế và Phát Triển 🛠️</h2>
+
+            <h3>Đăng ký nhận thông báo mới từ Tú</h3>
+            <div class="subscribe-form" style="background-color: #f0f4c3; border-radius: 8px; padding: 15px; display: flex; align-items: center; margin-bottom: 30px;">
+                <input type="email" placeholder="Nhập Email của bạn..." required style="padding: 8px; border: 1px solid #cddc39; border-radius: 5px; margin-right: 10px; width: 250px;">
+                <button type="submit" style="background-color: #8bc34a; color: white; padding: 8px 15px; border: none; border-radius: 5px; cursor: pointer;">Đăng ký</button>
+            </div>
+
+
+            <div class="service-card">
+                <h3>Thiết Kế Website/Landing Page Chuyên Nghiệp (UX/UI)</h3>
+                <p>Tạo ra các website và Landing Page tối ưu về mặt thẩm mỹ (UI) và trải nghiệm người dùng (UX). Phù hợp cho cá nhân, công ty, doanh nghiệp khởi nghiệp.</p>
+                <p>Bao gồm: Nghiên cứu người dùng, Wireframe, Prototype và Thiết kế giao diện cuối.</p>
+                <span class="price">Giá Khởi Điểm: Liên hệ để nhận báo giá chi tiết</span>
+            </div>
+
+            <div class="service-card">
+                <h3>Thiết Kế Phần Mềm/Ứng Dụng Di Động (App/Software UI/UX)</h3>
+                <p>Chuyên thiết kế giao diện cho các ứng dụng di động (iOS/Android) và phần mềm/hệ thống quản lý phức tạp, đảm bảo tính dễ sử dụng và hiệu quả công việc.</p>
+                <p>Tạo luồng người dùng (User Flow), bản đồ trang (Sitemap) và thiết kế hệ thống Design System.</p>
+                <span class="price">Giá Khởi Điểm: Liên hệ để nhận báo giá chi tiết</span>
+            </div>
+
+            <div class="service-card">
+                <h3>Phát Triển Website Front-end (HTML/CSS/JS)</h3>
+                <p>Chuyển đổi thiết kế (Figma/Sketch) thành mã HTML/CSS/JavaScript sạch, chuẩn SEO và Responsive. Đảm bảo website hoạt động mượt mà trên mọi thiết bị.</p>
+                <p>Công nghệ: HTML5, CSS3, SCSS, JavaScript cơ bản.</p>
+                <span class="price">Giá Khởi Điểm: $200 - $800 tùy độ phức tạp</span>
+            </div>
+
+            <h2>Liên Hệ với Tô Hoàng Anh Tú 📞</h2>
+            <div class="contact-form">
+                <form action="#" method="POST">
+                    <label for="name">Tên của bạn</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="subject">Chủ đề</label>
+                    <input type="text" id="subject" name="subject" required>
+
+                    <label for="message">Nội dung</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    
+                    <button type="submit">Gửi tin nhắn</button>
+                </form>
+            </div>
+            <p style="margin-top: 15px; text-align: center; color: #795548;">Hoặc liên hệ trực tiếp qua Email: <a href="mailto:contact@tuhoanganh.com">contact@tuhoanganh.com</a></p>
+        </div>
+
+        <div class="footer">
+            <p>© 2025 Tô Hoàng Anh Tú | Chuyên gia Thiết kế Phần mềm & Website. Đam mê Sáng tạo!</p>
+        </div>
+    </div>
+
+</body>
+</html>
