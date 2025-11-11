@@ -10,22 +10,31 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f8ff; /* Màu nền nhẹ nhàng, tươi sáng */
             color: #333;
+
+            /* ⭐ ĐÃ THÊM BACKGROUND CHO BODY TẠI ĐÂY ⭐ */
+            background-image: url(https://watermark.lovepik.com/photo/20211129/large/lovepik-comments-from-business-mens-office-picture_501167261.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-color: #f0f8ff; 
         }
 
         /* Vùng chứa chính */
         .container {
             width: 80%;
             margin: 20px auto;
-            background-color: #ffffff;
+            /* Thay đổi màu nền container thành bán trong suốt (ví dụ: white với độ mờ 90%) 
+               để người dùng có thể thấy ảnh nền phía sau. */
+            background-color: rgba(255, 255, 255, 0.9); 
             padding: 30px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Tăng shadow để nổi bật hơn */
             border-radius: 10px;
         }
 
-        /* Thanh điều hướng */
+        /* Thanh điều hướng/Phần đầu */
         .header {
+            /* Giữ lại các thuộc tính định dạng cho phần đầu trang, loại bỏ background image */
             background-color: #4CAF50; /* Màu xanh lá cây tươi mới */
             color: white;
             padding: 15px 30px;
@@ -52,13 +61,13 @@
         }
         .nav ul li a {
             text-decoration: none;
-            color: #1E88E5; /* Màu xanh dương năng động */
+            color: #1E88E5; 
             font-weight: bold;
             transition: color 0.3s;
         }
         .nav ul li a:hover,
         .nav ul li a.active {
-            color: #FF9800; /* Màu cam nổi bật khi hover/active */
+            color: #FF9800; 
             border-bottom: 3px solid #FF9800;
             padding-bottom: 5px;
         }
@@ -76,7 +85,7 @@
 
         /* Phần Đăng ký */
         .subscribe-form {
-            background-color: #e8f5e9; /* Màu nền nhẹ cho form */
+            background-color: #e8f5e9; 
             padding: 20px;
             border-radius: 8px;
             margin-bottom: 30px;
@@ -92,7 +101,7 @@
             font-size: 16px;
         }
         .subscribe-form button {
-            background-color: #FF5722; /* Màu cam đất mạnh mẽ */
+            background-color: #FF5722; 
             color: white;
             padding: 10px 20px;
             border: none;
@@ -163,4 +172,3 @@
 
 </body>
 </html>
-
